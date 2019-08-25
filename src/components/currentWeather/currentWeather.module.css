@@ -1,0 +1,26 @@
+button {
+        padding: 0;
+        border: none;
+        font: inherit;
+        color: inherit;
+        background-color: #4e3fac;
+        cursor: pointer;
+        margin: 2px 0;
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);   
+}
+
+button:hover {
+    background-color: #332879;
+}
+
+button:active, button:focus {
+    outline: none;
+  }
+
+  button:disabled {
+      background: rgba(121, 119, 119,.6);
+      cursor:default;
+  }  
+  
